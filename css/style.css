@@ -1024,15 +1024,32 @@ li.shopping-cart a {
     position: fixed;
     bottom: 30%;
     left: 50px;
-    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
 }
 .whtas-app-icon i{
     font-size: 45px;
-    font-weight: 600;
-    color: #25d366;
-    z-index: -9;
-    
-
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width: 556px){
+    .whtas-app-icon{
+        width: unset;
+        height: unset;
+        border-radius: unset;
+        background: unset;
+    }
+    .whtas-app-icon i{
+        color: #25d366;
+    }
 }
 
 /* about */
