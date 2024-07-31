@@ -732,6 +732,10 @@ li.shopping-cart a {
 }
 
 /* slider */
+.slider-area{
+    position: relative;
+    z-index: 9;
+}
 .single-slider {
     background-size: cover;
     background-position: center center;
@@ -1010,6 +1014,25 @@ li.shopping-cart a {
 
 .slider-active-3 .slick-dots li {
     display: inline-block;
+}
+
+/* whats-app */
+.whats-app{
+    position: relative;
+}
+.whtas-app-icon{
+    position: fixed;
+    bottom: 30%;
+    left: 50px;
+    
+}
+.whtas-app-icon i{
+    font-size: 45px;
+    font-weight: 600;
+    color: #25d366;
+    z-index: -9;
+    
+
 }
 
 /* about */
@@ -3056,6 +3079,8 @@ span.published-time.published-location {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 9;
 }
 .subscribe-box {
     padding: 40px 0px;
@@ -3351,7 +3376,6 @@ span.footer-published-time {
 span.footer-contact-list-text {
     font-size: 13px;
     color: #fff;
-    opacity: .66;
     margin-left: 9px;
 }
 
@@ -3378,7 +3402,11 @@ span.opening-date {
     margin-top: 20px;
 }
 
-.footer-copyright span {
+.footer-copyright p {
     font-size: 15px;
+    color: #949494;
+}
+.footer-copyright a{
+    text-decoration: none;
     color: #949494;
 }
